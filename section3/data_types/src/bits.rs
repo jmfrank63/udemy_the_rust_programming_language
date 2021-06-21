@@ -53,6 +53,4 @@ pub fn play_with_bits() {
     println!("{}", m.bits);
     m.invert();
     println!("{}", m.bits);
-
-
 }

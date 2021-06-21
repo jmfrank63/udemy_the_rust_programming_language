@@ -39,8 +39,20 @@ pub fn play_with_bits() {
     let b = Flags::B;
     let c = Flags::C;
     let d = Flags::D;
+    let mut m = Flags::A;
     let z = Flags::ABCD;
 
-    println!("{}", z.bits);---09
+    println!("{}", a.bits);
+    println!("{}", b.bits);
+    println!("{}", c.bits);
+    println!("{}", d.bits);
+    println!("{}", z.bits);
+    m.set_all();
+    println!("{}", m.bits);
+    m.clear();
+    println!("{}", m.bits);
+    m.invert();
+    println!("{}", m.bits);
+
 
 }
